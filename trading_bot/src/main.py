@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 def main():
     # Initialize your trading API with email, password, and mode ('CFD' or 'Invest')
-    trading_api = Trading212API(email='richard@dubny.cz', password='tyna26AB', mode='CFD')
+    trading_api = Trading212API(email='####', password='###', mode='CFD')  #set password na email
 
     # Create instances of DataProcessor, AIModel, and Trader
     data_processor = DataProcessor()
